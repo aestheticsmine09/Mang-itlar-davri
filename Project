@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mang‘itlar Davrida Ijtimoiy-Iqtisodiy Hayot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mang‘itlar Davrida Ijtimoiy-Iqtisodiy Hayot</h1>
+        <nav>
+            <ul>
+                <li><a href="ijtimoiy.html">Ijtimoiy Hayot</a></li>
+                <li><a href="iqtisodiy.html">Iqtisodiy Hayot</a></li>
+                <li><a href="test.html">Test</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Ushbu sayt Mang‘itlar davridagi ijtimoiy va iqtisodiy hayot haqida ma’lumot beradi.</p>
+    </main>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #8B4513;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ijtimoiy Hayot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ijtimoiy Hayot</h1>
+    </header>
+    <main>
+        <p>Mang‘itlar davrida jamiyat qatlamlarga bo‘lingan edi.</p>
+    </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iqtisodiy Hayot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Iqtisodiy Hayot</h1>
+    </header>
+    <main>
+        <p>Asosiy iqtisodiy tarmoqlar qishloq xo‘jaligi va savdo edi.</p>
+    </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function checkAnswer() {
+            var answer = document.getElementById("answer").value;
+            if (answer.toLowerCase() === "buxoro") {
+                alert("To‘g‘ri!");
+            } else {
+                alert("Noto‘g‘ri, qaytadan harakat qilib ko‘ring.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Test</h1>
+    </header>
+    <main>
+        <p>Mang‘itlar davrida qaysi shahar poytaxt bo‘lgan?</p>
+        <input type="text" id="answer">
+        <button onclick="checkAnswer()">Tekshirish</button>
+    </main>
+</body>
+</html>
